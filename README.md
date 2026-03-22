@@ -71,11 +71,10 @@ FreeRTOS Task Manager
 
 ## System Flow
 
-```text
 Start → Initialize Sensors → Create FreeRTOS Tasks
       → Read Sensor Data (Parallel) → Update System State
       → Display Telemetry → Repeat
-
+---
 ## Novelty & Adaptive Features
 
 - **SAFE MODE simulation** for abnormal conditions (e.g., low voltage or high temperature)  
